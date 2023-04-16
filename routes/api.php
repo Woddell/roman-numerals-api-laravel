@@ -15,3 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('roman-numerals', 'ConvertRomanNumeralController');
+
+Route::get('roman-numerals/top-ten', 'GetTopTenConvertedIntegersController');
+Route::get('roman-numerals/most-recent', 'GetMostRecentConvertedIntegersController');
